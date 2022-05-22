@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+:focus{
+    outline: none;
+}
+#Header{
+    padding: 20px 4rem;
+    overflow: auto;
+    background-color: rgba(51, 51, 51, 0.597);
+    position: fixed;
+    width: 100%;
+}
+
+
+#Header .left {
+    width: 20%;
+    float: left;
+}
+
+#Header .right {
+    width: 80%;
+    float: right;
+    margin-top: 12px;
+    text-align: right;
+}
+
+#Header .right a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+#Meet{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 15rem;
+    color: #fff;
+}
+
+#Meet h2{
+    font-size: 36px;
+}
+#Meet h1{
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+#Meet a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#Meet a:hover{
+    background-color: #ac8804;
+}
+
+#Service{
+    padding: 5rem 4rem;
+    overflow: auto;
+}
+
+.service-text,.works-text{
+    text-align: center;
+}
+
+.service-text h3,.works-text h3{
+    font-size: 40px;
+    color: #212529;
+}
+
+.service-text p,.works-text p{
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.service-box {
+    margin-top: 50px;
+}
+
+.service-box .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.service-box svg{
+    background-color: #ffc800;
+    height: 6rem;
+    color: #fff;
+    padding: 20px;
+}
+
+.service-box .box h3{
+    font-size: 24px;
+    color: #212529;
+    margin: 6px 0;
+}
+
+.service-box .box p{
+    font-size: 16px;
+    color: #6c757d;
+}
+
+
+#Works{
+    background-color: #F8F9FA;
+    padding: 4rem;
+    overflow: auto;
+}
+
+.work-box .box{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+}
+
+.work-box .box:hover img{
+    filter: grayscale(1);
+}
+.work-box {
+    margin-top: 40px;
+}
+
+.work-box .box img{
+    width: 100%;
+    transition: .5s;
+}
+
+.work-box .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+.team{
+    padding:4rem 5rem;
+    overflow: auto;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.team .amazing{
+    text-align: center;
+}
+.team h2{
+    color: #212529;
+    font-size: 40px;
+}
+.team p{
+    color: #6c757d;
+    font-size: 16px;
+    margin: 8px 0;
+}
+.team .photo{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    padding-left:50px;
+}
+.team .photo img{
+    width: 100%;
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.team .text p{
+    font-size: 16px;
+    color: #6c757d;
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+.logo{
+    padding: 2rem 5rem;
+    overflow: auto;
+}
+.logo .box{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.logo .box img{
+    height: 4rem;
+    width: 14rem;
+    padding-left: 2rem;
+    margin-left: 60px;
+    padding-top: 25px;
+    text-align: center;
+}
+.contact{
+    padding: 4rem 5rem;
+    overflow: auto;
+    width: 100%;
+    background-color: #212529;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+}
+.contact .top{
+    text-align: center;
+}
+.contact h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.contact p{
+    color: #6c757d;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.bottom{
+    width: 100%;
+    overflow: auto;
+}
+.bottom .left{
+    float: left;
+    width: 49%;
+}
+.bottom .left input{   
+    padding: 30px 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.bottom .right{
+    margin-top: 10px;
+    float: right;
+    width: 49%;
+}
+.bottom .right textarea{
+    width: 100%;
+    padding: 27px;
+    border-radius: 5px;
+}
+.contact .btn{
+    text-align: center;
+}
+.contact .btn button{
+    border:none;
+    background-color: #ffc80094;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 25px 45px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    padding: 20px 4rem;
+    width: 100%;
+    overflow: auto;
+}
+.footer .left{
+    float: left;
+}
+.footer .left p{
+    font-size: 16px;
+    color: #212529;
+}
+.footer .right{
+    float: right;
+    text-align: right;
+}
+.footer .right a{
+    font-size: 16px;
+    color: #212529;
+    padding-left: 10px;
+}
